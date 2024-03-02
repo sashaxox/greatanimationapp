@@ -2,10 +2,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React, { useState, useEffect } from "react";
-import logo from "../assets/img/logo.svg"
-import navIcon1 from "../assets/img/nav-icon1.svg"
-import navIcon2 from "../assets/img/nav-icon2.svg"
-import navIcon3 from "../assets/img/nav-icon3.svg"
+import logo from "../assets/img/logo.svg";
+import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon3 from "../assets/img/nav-icon3.svg";
+import teleimg from "../assets/img/tele-img.svg"
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -23,9 +23,9 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onUpdateActiveLink = (value) =>{
-    setActiveLink(value)
-  }
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+  };
 
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -68,22 +68,24 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="/">
+              <a href="https://www.linkedin.com/in/саша-хох-077a92190/">
                 <img alt="logo" src={navIcon1} />
               </a>
-              <a href="/">
-                <img alt="logo" src={navIcon2} />
-              </a>
-              <a href="/">
+              <a href="https://www.instagram.com/sasha_xox123/">
                 <img alt="logo" src={navIcon3} />
               </a>
+              <a className="telegram" href="https://t.me/Sashaxox">
+                <img alt="logo" src={teleimg} />
+              </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            {/* <button className="vvd" onClick={() => console.log("connect")}>
               <span>Lets connect!</span>
-            </button>
+            </button> */}
           </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 };
+
+// https://t.me/Sashaxox
