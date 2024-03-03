@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/SL_0212121_40670_78.jpg";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -12,8 +12,8 @@ import React from "react";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Crypto app",
+      description: "React training",
       imgUrl: projImg1,
     },
     {
@@ -56,11 +56,7 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Здесь представлены лишь некоторые ссылки на мои готовые проекты
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
