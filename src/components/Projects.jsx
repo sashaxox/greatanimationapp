@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/SL_0212121_40670_78.jpg";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/pexels-realtoughcandycom-11035544.jpg";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 import React from "react";
 
@@ -13,33 +13,39 @@ export const Projects = () => {
   const projects = [
     {
       title: "Crypto app",
-      description: "React training",
+      description: "Маленькое React приложение",
       imgUrl: projImg1,
+      href: "https://main--cryptoappproject.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Github API project",
+      description: "Запрос API  с гитхаба с использованием RTK",
       imgUrl: projImg2,
+      href: "https://redux-train.netlify.app/",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      href: "https://main--cryptoappproject.netlify.app/",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      href: "https://main--cryptoappproject.netlify.app/",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      href: "https://main--cryptoappproject.netlify.app/",
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      href: "https://main--cryptoappproject.netlify.app/",
     },
   ];
   return (
@@ -56,7 +62,8 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Здесь представлены лишь некоторые ссылки на мои готовые проекты
+                    Здесь представлены лишь некоторые ссылки на мои готовые
+                    проекты
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
