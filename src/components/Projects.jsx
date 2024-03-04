@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/SL_0212121_40670_78.jpg";
 import projImg2 from "../assets/img/pexels-realtoughcandycom-11035544.jpg";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets//img/pexels-nguyen-huy-20446885.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -24,10 +24,10 @@ export const Projects = () => {
       href: "https://redux-train.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Sport landing APP",
+      description: "Лэндинг спортивного клуба с TS",
       imgUrl: projImg3,
-      href: "https://main--cryptoappproject.netlify.app/",
+      href: "https://65e6118d32e6f7162e81f781--sportappwithts.netlify.app/",
     },
     {
       title: "Business Startup",
