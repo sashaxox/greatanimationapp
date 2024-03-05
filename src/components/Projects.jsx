@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/SL_0212121_40670_78.jpg";
 import projImg2 from "../assets/img/pexels-realtoughcandycom-11035544.jpg";
 import projImg3 from "../assets//img/pexels-nguyen-huy-20446885.jpg";
 import projImg4 from "../assets//img/giulia-may-8JFMYz-a8Xo-unsplash.jpg";
+import projImg5 from "../assets//img/chairs-2181960_640.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -37,10 +38,10 @@ export const Projects = () => {
       href: "https://nextjsappproj.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      href: "https://main--cryptoappproject.netlify.app/",
+      title: "Gulp App",
+      description: "Скромный лендинг с использованием Gulp",
+      imgUrl: projImg5,
+      href: "https://landingwithgulp.netlify.app/",
     },
     {
       title: "Business Startup",
