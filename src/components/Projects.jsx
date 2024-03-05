@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/SL_0212121_40670_78.jpg";
 import projImg2 from "../assets/img/pexels-realtoughcandycom-11035544.jpg";
 import projImg3 from "../assets//img/pexels-nguyen-huy-20446885.jpg";
+import projImg4 from "../assets//img/giulia-may-8JFMYz-a8Xo-unsplash.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -24,16 +25,16 @@ export const Projects = () => {
       href: "https://redux-train.netlify.app/",
     },
     {
-      title: "Sport landing APP",
+      title: "Sport landing App",
       description: "Лэндинг спортивного клуба с TS",
       imgUrl: projImg3,
       href: "https://65e6118d32e6f7162e81f781--sportappwithts.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      href: "https://main--cryptoappproject.netlify.app/",
+      title: "NextJs App",
+      description: "небольшая разработка с использованием NextJs",
+      imgUrl: projImg4,
+      href: "https://nextjsappproj.netlify.app/",
     },
     {
       title: "Business Startup",
