@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/pexels-realtoughcandycom-11035544.jpg";
 import projImg3 from "../assets//img/pexels-nguyen-huy-20446885.jpg";
 import projImg4 from "../assets//img/giulia-may-8JFMYz-a8Xo-unsplash.jpg";
 import projImg5 from "../assets//img/chairs-2181960_640.jpg";
+import projImg6 from "../assets//img/nils-huenerfuerst-E-IQ1nbpzZo-unsplash.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -44,10 +45,10 @@ export const Projects = () => {
       href: "https://landingwithgulp.netlify.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      href: "https://main--cryptoappproject.netlify.app/",
+      title: "Wordle Game",
+      description: "Игра Wordle",
+      imgUrl: projImg6,
+      href: "https://wordleproj.netlify.app/",
     },
   ];
   return (
