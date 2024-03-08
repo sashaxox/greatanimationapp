@@ -24,7 +24,7 @@ export const Footer = () => {
                 <img alt="logo" src={teleimg} />
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2024. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
